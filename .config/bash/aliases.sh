@@ -19,6 +19,8 @@ alias r0='reboot'
 alias c='clear'
 alias e='exit'
 
+alias gpoh='git push origin HEAD'
+
 alias ytm='youtube-music-desktop-app'
 
 alias boot-win='systemctl reboot --boot-loader-entry=auto-windows'
