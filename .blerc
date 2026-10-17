@@ -1,0 +1,40 @@
+ble-import keymap.vi
+
+bleopt prompt_status_line=
+bleopt prompt_vi_mode_indicator=
+
+# uncomment this for the line at the bootom
+#bleopt keymap_vi_mode_show=
+#bleopt prompt_status_line='\q{keymap:vi/mode-indicator}'
+#bleopt prompt_status_align=left
+#
+
+ble-bind -m vi_imap --cursor 5
+ble-bind -m vi_nmap --cursor 2
+ble-bind -m vi_omap --cursor 4
+ble-bind -m vi_xmap --cursor 2
+ble-bind -m vi_smap --cursor 2
+
+function blerc/clipboard-copy {
+	if command -v wl-copy >/dev/null 2>&1; then
+		printf %s "$1" | wl-copy
+	#elif command -v xclip >/dev/null 2>&1; then
+		#printf %s "$1" | xclip -selection clipboard
+	#elif command -v xsel >/dev/null 2>&1; then
+		#printf %s "$1" | xsel --clipboard --input
+	#elif command -v pbcopy >/dev/null 2>&1; then
+		#printf %s "$1" | pbcopy
+	fi
+}
+
+function ble/widget/blerc/vi-copy-selection-to-clipboard {
+	ble/widget/vi-command/operator y || return
+	blerc/clipboard-copy "$_ble_edit_kill_ring"
+}
+
+ble-bind -m vi_imap -f Y -
+ble-bind -m vi_nmap -f Y -
+ble-bind -m vi_omap -f Y -
+ble-bind -m vi_xmap -f Y -
+ble-bind -m vi_smap -f Y -
+ble-bind -m vi_xmap -f 'Y' blerc/vi-copy-selection-to-clipboard

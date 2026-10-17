@@ -1,0 +1,13 @@
+{
+  "theme": "dark",
+  "editorMode": "vim",
+  "modelSettings": {
+    "claude-sonnet-4-6": {
+      "effortLevel": "xhigh"
+    }
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  }
+}

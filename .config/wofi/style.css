@@ -1,0 +1,34 @@
+* {
+    all: unset;
+    font-family: monospace;
+    font-size: 14px;
+    color: #ffffff;              /* White text */
+    background-color: #000000;  /* Default black background */
+}
+
+window {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #666666;  /* 1px grey border */
+    margin: 10px;
+}
+
+#input {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #444444;
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+#entry {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6px;
+    border-bottom: 1px solid #222222;
+}
+
+#entry:selected {
+    background-color: #333333;  /* darker grey for selection */
+    color: #ffffff;
+}

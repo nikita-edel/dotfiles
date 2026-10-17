@@ -1,0 +1,6 @@
+[user]
+	email = nikita.edel.dev@gmail.com
+	name = Nikita Edel
+[init]
+	defaultBranch = main
+	defaultRefFormat = files

@@ -1,0 +1,34 @@
+# Ignore everything by default
+*
+
+# Bash
+!.bashrc
+!.bash_profile
+!.bash_logout
+!.blerc
+
+# Dotfiles
+!.gitconfig
+!.gitignore
+
+# .config — must unignore parent dirs first
+!.config/
+!.config/bash/
+!.config/bash/**
+!.config/hypr/
+!.config/hypr/**
+!.config/waybar/
+!.config/waybar/**
+!.config/nvim/
+!.config/nvim/**
+!.config/kitty/
+!.config/kitty/**
+!.config/wofi/
+!.config/wofi/**
+!.config/git/
+!.config/git/**
+!.config/starship/
+!.config/starship/**
+
+!.claude
+!.claude/settings.json

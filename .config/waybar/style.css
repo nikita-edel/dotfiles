@@ -1,0 +1,55 @@
+#language,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#battery,
+#clock {
+	background-color: rgba(0,0,0,0.7); /* Black background */
+	color: #FFFFFF; /* White font color */
+	border: 1px solid #FFFFFF; /* White outline */
+	border-radius: 2px; /* Optional: rounded corners */
+	padding: 0px 12px; /* Space inside the borders */
+	margin: 0px; /* Space between modules */
+}
+#waybar {
+	min-height: 5px;
+	background-color: rgba(0, 0, 0, 0.0); 
+}
+#workspaces {
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 0px;
+}
+
+#workspaces button{
+	min-height: 3px;
+}
+
+#workspaces button.active{
+	color: #FFFFFF;
+	opacity:1.0;
+}
+
+#workspaces button.visible:not(.active){
+	opacity:0.95;
+}	
+
+#custom-capslock {
+	background-color: rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	padding: 0px 8px;
+	margin: 0px;
+	min-width: 16px;
+}
+
+#custom-cpu_temp {
+    color: inherit;
+}
+
+#window {
+	color: #FFFFFF; 
+	background-color: rgba(0,0,0,0.0); 
+}
