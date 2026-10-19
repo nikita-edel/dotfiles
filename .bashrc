@@ -10,7 +10,7 @@ set -o vi
 
 PS1='[\u \[\e[35m\]=^·ω·^=\[\e[0m\]] \W \$ '
 
-for f in ~/.config/bash/{exports,vars,aliases,third-party}.sh; do
+for f in ~/.config/bash/{exports,vars,aliases,third-party,util}.sh; do
     [[ -f "$f" ]] && source "$f"
 done
 
