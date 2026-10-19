@@ -15,7 +15,6 @@
 	    "hyprland/window"
     ],
     "modules-right": [
-	    "custom/capslock",
 	    "hyprland/language",
 	    "pulseaudio",
 	    "cpu",
