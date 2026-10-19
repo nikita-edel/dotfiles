@@ -27,8 +27,7 @@
 !.config/wofi/**
 !.config/git/
 !.config/git/**
-!.config/starship/
-!.config/starship/**
+!.config/starship.toml
 
 !.claude
 !.claude/settings.json
