@@ -1,6 +1,7 @@
 
 git-cherry-all() {
-
+	local -
+	set -e
 	git commit -am "$1"
 	sha=$(git rev-parse HEAD)
 	cur=$(git branch --show-current)
