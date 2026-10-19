@@ -18,8 +18,10 @@ alias s0='shutdown 0'
 alias r0='reboot'
 alias c='clear'
 alias e='exit'
+alias l='ls'
 
 alias gpoh='git push origin HEAD'
+alias gpoa='git push origin --all'
 
 alias ytm='youtube-music-desktop-app'
 
