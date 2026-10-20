@@ -1,0 +1,10 @@
+add_newline = false
+format = "$directory$git_branch$git_status$line_break$character"
+
+[character]
+success_symbol = "[⚞^·ω·^⚟ \\$](purple)"
+error_symbol = "[⚞^·ω·^⚟ \\$](red)"
+# vicmd_symbol = "[⚞^·ω·^⚟ \\$](green)"
+# vimcmd_replace_one_symbol = "[⚞^·ω·^⚟ \\$](bold purple)"
+# vimcmd_replace_symbol = "[⚞^·ω·^⚟ \\$](bold purple)"
+# vimcmd_visual_symbol = "[⚞^·ω·^⚟ \\$](bold green)"
