@@ -16,6 +16,7 @@
     ],
     "modules-right": [
 	    "hyprland/language",
+		"network",
 	    "pulseaudio",
 	    "cpu",
 	    "temperature",
