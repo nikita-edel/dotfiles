@@ -20,7 +20,6 @@
 	    "cpu",
 	    "temperature",
 	    "memory",
-	    "battery",
 	    "clock"
     ],
 
