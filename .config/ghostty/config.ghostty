@@ -5,15 +5,12 @@ font-size = 18
 
 window-inherit-font-size = false
 
-# Right-click: copy selection if any, else paste (like kitty's copy_or_paste.py)
 right-click-action = copy-or-paste
 
-# ghostty's bash integration fights ble.sh and draws the multi-line prompt twice
 shell-integration = none
 
 app-notifications = no-clipboard-copy
 
-# kitty's default palette (ghostty's default is much more muted)
 foreground = #dddddd
 palette = 0=#000000
 palette = 1=#cc0403
