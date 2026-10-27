@@ -4,6 +4,7 @@ font-family = JetBrainsMono Nerd Font
 font-size = 18
 
 window-inherit-font-size = false
+window-inherit-working-directory = false
 
 right-click-action = copy-or-paste
 
@@ -28,3 +29,8 @@ palette = 12=#1a8fff
 palette = 13=#fd28ff
 palette = 14=#14ffff
 palette = 15=#ffffff
+
+keybind = ctrl+shift+equal=increase_font_size:1
+keybind = ctrl+shift+minus=decrease_font_size:1
+keybind = ctrl+shift+zero=reset_font_size
+keybind = ctrl+enter=unbind
