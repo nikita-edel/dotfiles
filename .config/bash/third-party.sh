@@ -1,4 +1,8 @@
 eval "$(thefuck --alias fk)"
 eval "$(starship init bash)"
-# zoxide must come last so its prompt hook survives
+
+if [[ $TERM_PROGRAM == ghostty && -r $GHOSTTY_RESOURCES_DIR/shell-integration/bash/ghostty.bash ]]; then
+    source -- "$GHOSTTY_RESOURCES_DIR/shell-integration/bash/ghostty.bash"
+fi
+
 eval "$(zoxide init bash)"
