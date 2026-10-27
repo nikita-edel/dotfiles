@@ -1,0 +1,33 @@
+background = #000000
+
+font-family = JetBrainsMono Nerd Font
+font-size = 18
+
+window-inherit-font-size = false
+
+# Right-click: copy selection if any, else paste (like kitty's copy_or_paste.py)
+right-click-action = copy-or-paste
+
+# ghostty's bash integration fights ble.sh and draws the multi-line prompt twice
+shell-integration = none
+
+app-notifications = no-clipboard-copy
+
+# kitty's default palette (ghostty's default is much more muted)
+foreground = #dddddd
+palette = 0=#000000
+palette = 1=#cc0403
+palette = 2=#19cb00
+palette = 3=#cecb00
+palette = 4=#0d73cc
+palette = 5=#cb1ed1
+palette = 6=#0dcdcd
+palette = 7=#dddddd
+palette = 8=#767676
+palette = 9=#f2201f
+palette = 10=#23fd00
+palette = 11=#fffd00
+palette = 12=#1a8fff
+palette = 13=#fd28ff
+palette = 14=#14ffff
+palette = 15=#ffffff

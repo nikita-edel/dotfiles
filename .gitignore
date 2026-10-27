@@ -23,6 +23,8 @@
 !.config/nvim/**
 !.config/kitty/
 !.config/kitty/**
+!.config/ghostty/
+!.config/ghostty/**
 !.config/wofi/
 !.config/wofi/**
 !.config/git/
