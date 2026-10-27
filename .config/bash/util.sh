@@ -1,8 +1,3 @@
-
-git-add-cherry-all() {
-	git add -A && git-cherry-all "$1"
-}
-
 git-cherry-all() (
 	set -e
 
@@ -31,3 +26,14 @@ git-cherry-all() (
 )
 
 
+git-add-cherry-all() {
+	git add -A && git-cherry-all "$1"
+}
+
+git-last-commit() {
+	git rev-parse HEAD
+}
+
+copy-last-commit() {
+	git rev-parse HEAD | wl-copy
+}
