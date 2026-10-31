@@ -1,4 +1,3 @@
-eval "$(thefuck --alias fk)"
 eval "$(starship init bash)"
 
 if [[ $TERM_PROGRAM == ghostty && -r $GHOSTTY_RESOURCES_DIR/shell-integration/bash/ghostty.bash ]]; then

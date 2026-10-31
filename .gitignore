@@ -30,6 +30,8 @@
 !.config/git/
 !.config/git/**
 !.config/starship.toml
+!.config/powershell
+!.config/powershell/**
 
 !.claude
 !.claude/settings.json

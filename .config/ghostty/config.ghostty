@@ -8,6 +8,7 @@ window-inherit-working-directory = false
 
 right-click-action = copy-or-paste
 
+command = pwsh -NoLogo
 shell-integration = none
 
 app-notifications = no-clipboard-copy
@@ -34,3 +35,5 @@ keybind = ctrl+shift+equal=increase_font_size:1
 keybind = ctrl+shift+minus=decrease_font_size:1
 keybind = ctrl+shift+zero=reset_font_size
 keybind = ctrl+enter=unbind
+# the only shift+enter encoding pwsh's console can decode
+keybind = shift+enter=text:\x1b[1;2M

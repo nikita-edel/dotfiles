@@ -13,7 +13,7 @@ alias lsd='ls'
 
 alias cd='z'
 
-alias rebash="source ~/.bashrc"
+alias reconf="source ~/.bashrc"
 alias s0='shutdown 0'
 alias r0='reboot'
 alias c='clear'
