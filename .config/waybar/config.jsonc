@@ -16,10 +16,12 @@
     ],
     "modules-right": [
 	    "hyprland/language",
+	    "network", // hidden unless wifi is connected
 	    "pulseaudio",
 	    "cpu",
 	    "temperature",
 	    "memory",
+	    "battery", // hidden when there is no system battery
 	    "clock"
     ],
 
@@ -111,12 +113,12 @@
 	    }
     },
     "network": {
-	// "interface": "wlp2*", // (Optional) To force the use of this interface
+	"interface": "wlp*", // wifi only, so the wired desktop shows nothing
 	"format-wifi": "{essid} {signalStrength}% ",
 	"format-ethernet": "{ipaddr}/{cidr} ",
 	"tooltip-format": "{ifname} via {gwaddr} ",
 	"format-linked": "{ifname} (No IP) ",
-	"format-disconnected": "Disconnected ⚠",
+	"format-disconnected": "", // An empty format will hide the module
 	"format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
