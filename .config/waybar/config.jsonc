@@ -113,7 +113,7 @@
 	    }
     },
     "network": {
-	"interface": "wlp*", // wifi only, so the wired desktop shows nothing
+	"interface": "wl*", // wifi only, so the wired desktop shows nothing
 	"format-wifi": "{essid} {signalStrength}% ",
 	"format-ethernet": "{ipaddr}/{cidr} ",
 	"tooltip-format": "{ifname} via {gwaddr} ",
