@@ -1,13 +1,16 @@
 {
-  "theme": "dark",
-  "editorMode": "vim",
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
   "modelSettings": {
     "claude-sonnet-4-6": {
       "effortLevel": "xhigh"
     }
   },
-  "attribution": {
-    "commit": "",
-    "pr": ""
+  "theme": "dark",
+  "editorMode": "vim",
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true
   }
 }
