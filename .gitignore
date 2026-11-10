@@ -33,5 +33,3 @@
 !.config/powershell
 !.config/powershell/**
 
-!.claude
-!.claude/settings.json
