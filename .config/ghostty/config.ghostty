@@ -7,8 +7,11 @@ window-inherit-font-size = false
 window-inherit-working-directory = false
 
 right-click-action = copy-or-paste
+clipboard-read = allow
+clipboard-write = allow
 
 command = pwsh -NoLogo
+
 shell-integration = none
 
 app-notifications = no-clipboard-copy
